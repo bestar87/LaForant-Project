@@ -1,3 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101820;
+}
+
+.navbar .navbarNav,
+.dropDownItem{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.linkItem,
+.dropDown .dropDownMenu .dropDownItem{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family:  'Copperplate Gothic Bold', 'Copperplate Gothic Light', Copperplate, fantasy;
+    font-weight: 600;
+    padding: 20px;
+   
+}
+
+.navbarRightItem .linkItem{
+    float: right;
+    background-color: #e8a34a;
+}
+
+.navbarNav .navbarItem .linkItem:hover,
+.dropDown .dropDownMenu .dropDownItem:hover{
+    color: #101820;
+    background-color:white;
+}
+.navbarRightItem .linkItem:hover{
+    color: #e8a34a;
+    background-color: white;
+}
+
+.dropDown{
+    position: relative;
+}
+
+.dropDown .dropDownMenu{
+    display: none;
+    position: absolute;
+    background-color: #101820;
+} 
+
+.dropDown:hover .dropDownMenu{
+    display: block;
+}
+
+a{
+    letter-spacing: 3px;
+}
+
+#headerImg{ 
+    height: 70px;
+    width: 100px;
+} 
+
 .footer {
     background-color: #101820;
     color: #d4d4d4;

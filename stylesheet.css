@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* HEADER CSS*/
 header{
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ a{
     height: 70px;
     width: 100px;
 } 
-
+/* FOOTER CSS */
 .footer {
     background-color: #101820;
     color: #d4d4d4;
